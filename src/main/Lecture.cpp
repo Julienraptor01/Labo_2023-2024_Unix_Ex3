@@ -19,7 +19,7 @@ int main(int argc,char*argv[])
 
   // Connection à la BD
   MYSQL* connexion = mysql_init(NULL);
-  mysql_real_connect(connexion,"localhost","Student","PassStudent1_","PourStudent",0,0,0);
+  mysql_real_connect(connexion,"localhost","root","","Ex3",0,0,0);
 
   // Envoi de la requete de comptage de tuples de la Table UNIX_EX3 pour le groupe précisé
   sprintf(requete,"select count(*) from UNIX_EX3 where groupe = '%s'",argv[1]);

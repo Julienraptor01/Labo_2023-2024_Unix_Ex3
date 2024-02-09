@@ -1,8 +1,13 @@
-# Exercice 3 de "Système d'exploitation et Programmation Système UNIX"
+# Unix 2023-2024 School Project Exercise 3
 
-Objectifs :
-* Se familiariser avec la création de processus (fork, exec, exit et wait).
-* Se familiariser avec l’utilisation de la librairie C d’accès à une base de données MySql.
-* Création d’un fichier de traces.
-* Et toujours : création d’un makefile
+Objectives :
+- Get used to process creation (fork, exec, exit and wait)
+- Get used to the C library to access a MySql database
+- Create a log file
+- And as always: create a makefile
 
+## Credits
+[@hepl-dsoo](https://github.com/hepl-dsoo), [myself](https://github.com/Julienraptor01)
+
+## License
+[CC BY-NC-SA 4.0](LICENSE.md)

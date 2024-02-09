@@ -49,7 +49,7 @@ int main(int argc,char *argv[])
   // Connection a MySql
   printf("Connection a la BD...\n");
   MYSQL* connexion = mysql_init(NULL);
-  mysql_real_connect(connexion,"localhost","Student","PassStudent1_","PourStudent",0,0,0);
+  mysql_real_connect(connexion,"localhost","root","","Ex3",0,0,0);
 
   // Creation d'une table UNIX_EX3
   printf("Creation de la table UNIX_EX3...\n");
